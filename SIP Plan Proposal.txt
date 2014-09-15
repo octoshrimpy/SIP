@@ -1,0 +1,96 @@
+---------------------------------------------------------------------------
+SIP - Sponge Industrialization Project Plan Proposal
+IRC Channel: #SIP @  irc.esper.net
+
+Brought to you by the SIP team :p
+
+Abbreviations:
+#TBD ( To be Debated/Discussed )
+
+---------------------------------------------------------------------------
+-SIPCore
+  -Include API?
+
+  -Basic CPU Infrastructure
+    -Won't contain any actual CPUs ( logic,functionality )
+    -Will contain the multiblock algorithms
+
+  -Power logic
+    -Pathfinding
+    -Concept #TBD
+
+  -Core items
+    -Industrializer ( Previously Typifier in CPU , Name #TBD )
+      -Only serves as the "wrench" of the plugin
+      -Right Click: Activates Machines
+      -Shift Right Click: Wrench mode ( Disarms machines, drops them etc )
+      -Left Click: #TBD
+      -Shift Left Click: #TBD
+    -Machine Configurators
+      -This does the other half of the typifier functionality which is automatically adding items to CPUs
+    -Ores
+      -Copper, Tin etc ( Still got to think a way around textures or how to implement this #TBD )
+      -Make quartz available pre-nether for CPUs
+
+  -Pipes logic
+    -Items ( Make recipes cheaper or increase worldgen ores for balance? #TBD )
+      -Redstone dust
+        -Will do the actual transporting
+      -Repeaters
+        -Same direction as items travelling: Speeds up items
+        -Different direction as items travelling: Changes direction
+      -Comparators
+        -Chest behind it defines what items to sort out of the stream
+    -Liquids ( Maybe not #TBD )
+    -Power
+
+  -World Generation
+    -Ores
+
+----------------------------------------------------------------------------
+-SIPCPU
+ -Adds the actual CPUs themselves and defines the logic, Maybe DPU for turtle like operation #TBD
+ -Will be modular by adding types and tiers, refer to CPU sourcecode
+   -Logic Gates
+     -OR
+     -AND
+     -NOR
+     -NAND
+     -XOR
+     -XNOR
+   -Resource Collection
+     -Some kind of ore processor/doubling mechanic
+     -Quarry
+     -Farming
+       -Something similar to MFR? #TBD
+   -Utility
+     -Block Breaker
+     -Block Placer ( Unified with breaker like the TE Autonomous Activator? #TBD )
+     -Teleporter
+     -Clocks
+     -Pulse Extender
+     -Pulse Limiter
+     -Wireless
+
+----------------------------------------------------------------------------
+-SIPTransport
+  -Improves Vanilla Minecrafts transportation mechanics
+  -Something like railcraft ? #TBD
+  -Boat mania ported ( @ irobin591 and felix3008 )
+
+----------------------------------------------------------------------------
+-SIPTools
+  -Tools somewhat like TConstruct maybe? #TBD
+
+----------------------------------------------------------------------------
+-SIPUtilities #TBD
+  -Utility stuff that are not CPUs but serve a use
+    -Blocks like stuff from randomthings/openblocks
+    -Implemented in Sensible Toolbox fashion ( @ desht )
+
+----------------------------------------------------------------------------
+-SIPWorlds
+  -Mystcraft style stuff maybe? #TBD
+
+----------------------------------------------------------------------------
+
