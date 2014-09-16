@@ -9,7 +9,7 @@ Abbreviations:
 
 ---------------------------------------------------------------------------
 -SIPCore
-  -Include API?
+  -Write API
 
   -Basic CPU Infrastructure
     -Won't contain any actual CPUs ( logic,functionality )
@@ -31,17 +31,26 @@ Abbreviations:
     -Ores
       -Copper, Tin etc ( Still got to think a way around textures or how to implement this #TBD )
       -Make quartz available pre-nether for CPUs
+    -ChunkLoaders
 
   -Pipes logic
+    1: Redstone wires for transporting stuff
+   	  Repeaters for changing direction/speeding up items
+   	  Comparators for sorting items
+    2: Stained Glass
+   	  Blue - Items
+   	  Orange - Liquids
+   	  Red - Power
     -Items ( Make recipes cheaper or increase worldgen ores for balance? #TBD )
-      -Redstone dust
-        -Will do the actual transporting
       -Repeaters
         -Same direction as items travelling: Speeds up items
         -Different direction as items travelling: Changes direction
       -Comparators
         -Chest behind it defines what items to sort out of the stream
     -Liquids ( Maybe not #TBD )
+      -XP
+      -Lava
+      -Water
     -Power
 
   -World Generation
@@ -71,6 +80,11 @@ Abbreviations:
      -Pulse Extender
      -Pulse Limiter
      -Wireless
+     -Autocrafting
+     -Autosmelting
+   -DPU ( Dispenser Processing Unit , something akin to ComputerCraft turtles )
+     -Will be something like this: http://img4.wikia.nocookie.net/__cb20140915104619/minecraft-sip/images/f/f4/Vanillaturtle.png
+     -Using the new armor stands and stuff
 
 ----------------------------------------------------------------------------
 -SIPTransport
@@ -82,13 +96,13 @@ Abbreviations:
 -SIPTools
   -Tools somewhat like TConstruct maybe? #TBD
   -plugin version of practicalities.jotato.com (octo has permission from mod author)
+  -Jetpack
 
 ----------------------------------------------------------------------------
 -SIPUtilities #TBD
   -Utility stuff that are not CPUs but serve a use
     -Blocks like stuff from randomthings/openblocks
-      -luggage-like chest (octo has code)
-    -Implemented in Sensible Toolbox fashion ( @ desht )
+    -luggage-like chest (octo has code)
     
 ----------------------------------------------------------------------------
 -SIPWorlds
