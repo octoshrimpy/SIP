@@ -73,7 +73,6 @@ Abbreviations:
    -DPU ( Dispenser Processing Unit , something akin to ComputerCraft turtles )
      -Will be something like this: http://img4.wikia.nocookie.net/__cb20140915104619/minecraft-sip/images/f/f4/Vanillaturtle.png
      -Using the new armor stands and stuff
-   -Programmable CPUs? ( e.g. Computercraft/Lua/JavaScript? ) #TBD
 
 ----------------------------------------------------------------------------
 -SIPPipes
