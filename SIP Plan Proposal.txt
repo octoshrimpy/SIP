@@ -4,6 +4,11 @@ IRC Channel: #SIP @  irc.esper.net
 
 Brought to you by the SIP team :p
 
+Work distribution:
+  -waicool20: SIPCore, SIPCPU
+  -octoshrimpy: ideas, ( SIPUtilities? )#TBD
+  -Felix3008, irobin591: SIPTransport
+
 Abbreviations:
 #TBD ( To be Debated/Discussed )
 
@@ -99,7 +104,7 @@ Abbreviations:
   -Jetpack
 
 ----------------------------------------------------------------------------
--SIPUtilities #TBD
+-SIPUtilities
   -Utility stuff that are not CPUs but serve a use
     -Blocks like stuff from randomthings/openblocks
     -luggage-like chest (octo has code)
