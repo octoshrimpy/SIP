@@ -81,13 +81,15 @@ Abbreviations:
 ----------------------------------------------------------------------------
 -SIPTools
   -Tools somewhat like TConstruct maybe? #TBD
+  -plugin version of practicalities.jotato.com (octo has permission from mod author)
 
 ----------------------------------------------------------------------------
 -SIPUtilities #TBD
   -Utility stuff that are not CPUs but serve a use
     -Blocks like stuff from randomthings/openblocks
+      -luggage-like chest (octo has code)
     -Implemented in Sensible Toolbox fashion ( @ desht )
-
+    
 ----------------------------------------------------------------------------
 -SIPWorlds
   -Mystcraft style stuff maybe? #TBD
