@@ -1,0 +1,37 @@
+To keep a consistent workflow in the project please refer to this link:
+http://nvie.com/posts/a-successful-git-branching-model/
+
+Having a consistent workflow can reduce confusion and keep the project 
+nice and clean, if you are still not familiar with git I suggest you 
+that you read on it as soon as possible.
+
+----------------------------------------------------------------------
+
+To keep the commits readable and understandable, try and commit in reasonable
+sections and keep the commit messages as informative as you can but at the 
+same time not too overly complicated.
+
+GIT Commit Message Format:
+
+< Git commit summary > ( Keep this informative but simple )
+
+< Git commit description > ( Put as much information as you can over here, 
+                             though keep it organised)
+
+< Changes summary in bullet form > ( Use stars or hyphens as bullets,
+                                     list changes)
+
+Example:
+
+Added Commit CPU
+
+This CPU helps you commit everytime you apply a redstone signal and a book.
+A very requested feature since CPU 1.0
+
+*Added Commit CPU type
+*Added type to typifier
+*Supports Github
+*LOL
+
+ 
+
