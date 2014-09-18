@@ -39,7 +39,10 @@ Abbreviations:
 
   -World Generation
     -Ores
-
+  
+  -Use a database format ( eg. Mysql ) for storing large amounts of data such as WorldGen ores and CPUs
+   or use a flatfile ( like in old CPU plugin ) ?
+  
 ----------------------------------------------------------------------------
 -SIPCPU
  -Adds the actual CPUs themselves and defines the logic, Maybe DPU for turtle like operation #TBD
