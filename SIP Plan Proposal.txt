@@ -38,7 +38,16 @@ Abbreviations:
       -Make quartz available pre-nether for CPUs
 
   -World Generation
-    -Ores
+    -Ingots and Ores
+      -Bauxite ( Nether only, rare netherrack drop (Refines into Aluminium) )
+        -Aluminium
+      -Cobalt ( Refined from Silicon - Needs extreme heat from blast furnace )
+        -Silicon ( Refined from sand - Needs extreme heat from blast furnace )
+          -Sand
+      -Steel ( Refined from iron and coal )
+        -Iron/Coal
+      -Alumite ( Al + Fe + Obsidian )
+      -Manyullyn
   
   -Use a database format ( eg. Mysql ) for storing large amounts of data such as WorldGen ores and CPUs
    or use a flatfile ( like in old CPU plugin ) ?
