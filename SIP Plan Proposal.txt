@@ -39,7 +39,7 @@ Abbreviations:
 
   -World Generation
     -Ingots and Ores
-      -Bauxite ( Nether only, rare netherrack drop (Refines into Aluminium) )
+      -Bauxite ( Nether only, chance netherrack drop (Refines into Aluminium) )
         -Aluminium
       -Cobalt ( Refined from Silicon - Needs extreme heat from blast furnace )
         -Silicon ( Refined from sand - Needs extreme heat from blast furnace )
@@ -48,7 +48,13 @@ Abbreviations:
         -Iron/Coal
       -Alumite ( Al + Fe + Obsidian )
       -Manyullyn
-  
+      -copper ( see SIPAlchemy )
+      -bronze ( Cu + Sn )
+      - tin ( see SIPAlchemy )
+      - electrum ( Au + Ag )
+      - brass ( Cu + Zn )
+      -zinc ( see SIPAlchemy )
+      -silver (see SIPAlchemy )
   -Use a database format ( eg. Mysql ) for storing large amounts of data such as WorldGen ores and CPUs
    or use a flatfile ( like in old CPU plugin ) ?
   
@@ -138,6 +144,69 @@ Abbreviations:
   -Mystcraft style stuff maybe? #TBD
   -Maybe move Worldgen here? #TBD
   
+----------------------------------------------------------------------------
+-SIPalchemy
+  -item - alchemic power (explanation of non-irl elements; average of two items, +- modifiers)
+ 
+items: 
+  coal - 6
+    variants: charcoal
+  iron - 26
+    variants: steel
+   
+  ------------non vanilla-------------------
+   
+  aluminum - 13
+  alumite - 28 = 26(iron)<->13(aluminum)+9(obsidian, strong non-pure)
+  cobalt - 27
+  manyullyn - 24 = 27(cobalt)-3(ardite, weak non-pure)
+  copper - 29
+  bronze - 10 = 50(tin)<->29(copper)
+  tin - 50  
+  silver - 47
+  gold - 79
+  electrum -53 = 47(silver)<->79(gold)
+  zinc - 30
+  brass - 4 = 29(copper)<->30(zinc)
+  silicon - 14
+   
+  --------modifiers------------
+  bauxite -6
+  ardite -3
+  spiderEyes -2
+  gunPowder -15
+  obsidian +9
+  bone +20
+  bonemeal +2
+ 
+--------------recipes---------------------
+average of alchemic power of items thrown in, add modifiers, subtract modifiers (in that order)
+ 
+alchemy station:
+http://imgur.com/a/FznOC
+ 
+------------------------------------------------------
+moar ideas:
+------------------------------------------------------
+SIPAlchemy:
+  add more modifiers
+  electrum dust = redstone dust+NBT; electrum dust costs only 1 for 1 item (instead of 3 redstone)
+  dust and ingot for every new ore.
+  add most(/all) vanilla items to SIPalchemy
+
+liquids; 1:3 - Bk:ingot (Bk = bucket) for a smelter station (liquid not actually shown, just numbers in GUI)
+ 
+carbon fiber -
+carbon fiber ingots - tougher tools
+ 
+chestboats:
+  upgrades:
+    more inventory (1 row per upgrade)
+    tracker - follows player who created boat
+    tracker radius - increases radius
+    speed upgrades
+    pathfinding upgrades
+    autonomous ride (automatic transport like cargo ship; make sure to keep chunks in path loaded)
 ----------------------------------------------------------------------------
 -Off Topic
   -Logo
