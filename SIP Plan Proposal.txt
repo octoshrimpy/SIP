@@ -6,7 +6,7 @@ Brought to you by the SIP team :p
 
 Work distribution:
   -waicool20: SIPCore, SIPCPU
-  -octoshrimpy: ideas, ( SIPUtilities? ) #TBD
+  -octoshrimpy: ideas, ( SIPUtilities? SIPAlchemy? ) #TBD
   -Felix3008, irobin591: SIPTransport
 
 Abbreviations:
@@ -148,7 +148,7 @@ Abbreviations:
 -SIPalchemy
   -item - alchemic power (explanation of non-irl elements; average of two items, +- modifiers)
  
-items: 
+Items' alchemic powers: ( based from periodic table; compare for surprises )
   coal - 6
     variants: charcoal
   iron - 26
