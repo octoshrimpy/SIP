@@ -1,4 +1,4 @@
-package utilities;
+package misc;
 
 public class CommandHandler {
 
