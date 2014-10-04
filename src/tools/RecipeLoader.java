@@ -13,7 +13,7 @@ public class RecipeLoader {
 			//initialize the class file & load that certain recipe
 			//(recipe in specific item class file)
 			
-			//this makes it so tools that aren't turned on
+			//this makes it so recipes that aren't turned on
 			//don't end up running in the background,
 			//as they never get initialized.
 		}
