@@ -11,6 +11,9 @@ public class Main {
 		//if core is active, load up recipes.
 		
 		RecipeLoader.loadRecipes();
+		
+		//check if vanilla items are turned off
+		//act accordingly
 	}
 	
 	
